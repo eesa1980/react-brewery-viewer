@@ -1,12 +1,13 @@
-import React from 'react';
+import React, {FC} from 'react';
+import Routes from "./component/common/Routes";
 
-function App() {
+const App: FC = ({children}) => {
   return (
     <div>
       <header>
         Header
       </header>
-      <main>Main</main>
+      <main><Routes/></main>
       <footer>Footer</footer>
     </div>
   );

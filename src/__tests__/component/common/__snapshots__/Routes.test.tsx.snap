@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fails to show brewery-detail page as no id 1`] = `
+<div>
+  <h1>
+    Error: Page not found
+  </h1>
+</div>
+`;
+
+exports[`Routes.tsx Fails to show brewery-detail page as no id 1`] = `
+<div>
+  <h1>
+    Error: Page not found
+  </h1>
+</div>
+`;
+
+exports[`Routes.tsx Shows brewery-detail page 1`] = `
+<div>
+  <h1>
+    <span>
+      Brewery Detail
+    </span>
+     id:
+    123456
+  </h1>
+</div>
+`;
+
+exports[`Routes.tsx Shows error page 1`] = `
+<div>
+  <h1>
+    Error: Page not found
+  </h1>
+</div>
+`;
+
+exports[`Routes.tsx Shows home page 1`] = `
+<div>
+  <h1>
+    <span>
+      Home Page
+    </span>
+     
+  </h1>
+</div>
+`;
+
+exports[`Shows brewery-detail page 1`] = `
+<div>
+  <h1>
+    <span>
+      Brewery Detail
+    </span>
+     id:
+    123456
+  </h1>
+</div>
+`;
+
+exports[`Shows error page 1`] = `
+<div>
+  <h1>
+    Error: Page not found
+  </h1>
+</div>
+`;
+
+exports[`Shows home page 1`] = `
+<div>
+  <h1>
+    <span>
+      Home Page
+    </span>
+     
+  </h1>
+</div>
+`;
