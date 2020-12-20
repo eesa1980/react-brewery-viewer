@@ -10,7 +10,7 @@ interface PropTypes {
   brewery?: IBrewery;
 }
 
-const BreweryDetails: React.FC<PropTypes> = ({ brewery }) => {
+const Details: React.FC<PropTypes> = ({ brewery }) => {
   if (!brewery) {
     return <></>;
   }
@@ -54,7 +54,7 @@ const BreweryDetails: React.FC<PropTypes> = ({ brewery }) => {
   );
 };
 
-export default BreweryDetails;
+export default Details;
 
 const Wrapper$ = styled.div`
   text-align: center;
