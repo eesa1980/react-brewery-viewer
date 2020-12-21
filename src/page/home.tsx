@@ -179,10 +179,6 @@ export default HomePage;
 const FormWrapper$ = styled.div`
   position: sticky;
   top: 50px;
-  padding: 20px 0;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 70%,
-    transparent 100%
-  );
+  padding: 20px 0 0;
+  background: #fff;
 `;
