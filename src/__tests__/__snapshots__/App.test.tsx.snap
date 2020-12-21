@@ -1,86 +1,492 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders App 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div>
-        <header>
-          Header
-        </header>
-        <main>
-          Main
-        </main>
-        <footer>
-          Footer
-        </footer>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
-      <header>
-        Header
-      </header>
-      <main>
-        Main
-      </main>
-      <footer>
-        Footer
-      </footer>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
+.c2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  padding: 20px 0;
+  background: linear-gradient( 180deg, rgba(255,255,255,1) 70%, transparent 100% );
 }
+
+.c1 {
+  padding: 20px 0;
+  background: #00b5ad;
+  color: #ffffff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.c1 nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c1 nav a,
+.c1 nav strong {
+  color: #ffffff;
+}
+
+.c1 nav a:hover,
+.c1 nav strong:hover {
+  -webkit-text-decoration-color: #ffffff;
+  text-decoration-color: #ffffff;
+}
+
+.c3 {
+  padding: 20px 0;
+  background: #00b5ad;
+  color: #ffffff;
+  margin-top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c3 a {
+  color: #ffffff!important;
+}
+
+.c3 a:hover {
+  -webkit-text-decoration-color: #ffffff;
+  text-decoration-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+
+.c0 * {
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 * a,
+.c0 * a * {
+  color: #00b5ad;
+}
+
+.c0 * a:hover,
+.c0 * a *:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #00b5ad;
+  text-decoration-color: #00b5ad;
+}
+
+.c0 .disabled * {
+  color: rgba(0,0,0,0.87);
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <header
+      class="c1"
+    >
+      <div
+        class="ui container"
+      >
+        <nav>
+          <a
+            href="/"
+          >
+            <strong>
+              Brewery Viewer
+            </strong>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <div
+      class="ui horizontal divider"
+    />
+    <main>
+      <div
+        class="ui container"
+      >
+        <div
+          class="ui horizontal divider"
+        >
+          <h1
+            class="ui header"
+          >
+            Breweries
+            <i
+              aria-hidden="true"
+              class="teal icon beer"
+            />
+          </h1>
+        </div>
+        <p
+          class="ui center aligned header"
+        >
+          Select a brewery, click on a location or click a website link to view more information
+        </p>
+        <div
+          class="c2"
+        >
+          <form
+            class="ui form"
+          >
+            <div
+              class="equal width fields"
+            >
+              <div
+                class="field"
+              >
+                Sort by 
+                <i
+                  aria-hidden="true"
+                  class="icon sort amount down"
+                />
+                <div
+                  aria-expanded="false"
+                  class="ui selection dropdown"
+                  role="listbox"
+                  tabindex="0"
+                >
+                  <div
+                    aria-atomic="true"
+                    aria-live="polite"
+                    class="divider text"
+                    role="alert"
+                  >
+                    Name
+                  </div>
+                  <i
+                    aria-hidden="true"
+                    class="dropdown icon"
+                  />
+                  <div
+                    class="menu transition"
+                  >
+                    <div
+                      aria-checked="true"
+                      aria-selected="true"
+                      class="active selected item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Name
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        State
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Type
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="field"
+              >
+                Filter by type 
+                <i
+                  aria-hidden="true"
+                  class="icon filter"
+                />
+                <div
+                  aria-expanded="false"
+                  class="ui selection dropdown"
+                  role="listbox"
+                  tabindex="0"
+                >
+                  <div
+                    aria-atomic="true"
+                    aria-live="polite"
+                    class="divider text"
+                    role="alert"
+                  >
+                    All
+                  </div>
+                  <i
+                    aria-hidden="true"
+                    class="dropdown icon"
+                  />
+                  <div
+                    class="menu transition"
+                  >
+                    <div
+                      aria-checked="true"
+                      aria-selected="true"
+                      class="active selected item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        All
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Bar
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Brewpub
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Closed
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Contract
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Large
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Micro
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Nano
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Planning
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Proprietor
+                      </span>
+                    </div>
+                    <div
+                      aria-checked="false"
+                      aria-selected="false"
+                      class="item"
+                      role="option"
+                      style="pointer-events: all;"
+                    >
+                      <span
+                        class="text"
+                      >
+                        Regional
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <table
+          class="ui teal fixed striped padded table"
+        >
+          <thead
+            class=""
+          >
+            <tr
+              class=""
+            >
+              <th
+                class=""
+              >
+                Name
+              </th>
+              <th
+                class=""
+              >
+                Location
+              </th>
+              <th
+                class=""
+              >
+                Website
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class=""
+          />
+          <tfoot
+            class=""
+          >
+            <tr
+              class=""
+            >
+              <th
+                class=""
+              >
+                <button
+                  class="ui teal icon loading right labeled button"
+                >
+                  Show more 
+                  <i
+                    aria-hidden="true"
+                    class="arrow down icon"
+                  />
+                </button>
+              </th>
+              <th
+                class=""
+              />
+              <th
+                class=""
+              />
+            </tr>
+          </tfoot>
+        </table>
+        <div
+          class="ui horizontal divider"
+        />
+      </div>
+    </main>
+    <header
+      class="c3"
+    >
+      <div
+        class="ui container"
+      >
+        <a
+          href="https://www.linkedin.com/in/lewis-james-odwin-71b4a08a/"
+          target="__blank"
+        >
+          Lewis James-Odwin
+        </a>
+      </div>
+    </header>
+  </div>
+</div>
 `;

@@ -1,27 +1,25 @@
-import {renderWithRouter} from '../../setupTests';
+import { renderWithRouter } from "../../setupTests";
 import Routes from "../../../component/common/Routes";
-import {render, screen} from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import React from "react";
+import { assertComponent } from "../../helper";
 
-const assertionHelper = async (text: string, url? :string) => {
-    const {container} = renderWithRouter(<Routes/>, url);
-    await expect(screen.findByText(text)).resolves.toBeDefined();
-    expect(container).toMatchSnapshot();
-}
+it("Shows home page", async () => {
+  assertComponent(<Routes />, renderWithRouter, "/");
+  await expect(screen.findByText("Breweries")).resolves.toBeDefined();
+});
 
-it('Shows home page', async () => {
-    await assertionHelper('Home Page');
-})
+it("Shows brewery-detail page", async () => {
+  assertComponent(<Routes />, renderWithRouter, "/brewery-detail/12345");
+  await expect(screen.findByText("Loading")).resolves.toBeDefined();
+});
 
-it('Shows brewery-detail page', async () => {
-    await assertionHelper('Brewery Detail', "/brewery-detail/123456");
-})
+it("Fails to show brewery-detail page as no id", async () => {
+  assertComponent(<Routes />, renderWithRouter, "/brewery-detail");
+  expect(await screen.findByText("404 Error - Page not found")).toBeDefined();
+});
 
-it('Fails to show brewery-detail page as no id', async () => {
-    await assertionHelper('Error: Page not found', "/brewery-detail");
-})
-
-it('Shows error page', async () => {
-    await assertionHelper('Error: Page not found', "/fake-route");
-})
-
+it("Shows error page", async () => {
+  assertComponent(<Routes />, renderWithRouter, "/fake-route");
+  expect(await screen.findByText("404 Error - Page not found")).toBeDefined();
+});

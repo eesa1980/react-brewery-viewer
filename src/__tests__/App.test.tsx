@@ -1,10 +1,10 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import App from "../App";
 import './setupTests';
+import {renderWithRouter} from "./setupTests";
 
 test('renders App', () => {
-  const el = render(<App />);
-  expect(el).toBeDefined();
-  expect(el).toMatchSnapshot();
+  const {container} = renderWithRouter(<App />);
+  expect(container).toBeDefined();
+  expect(container).toMatchSnapshot();
 });
