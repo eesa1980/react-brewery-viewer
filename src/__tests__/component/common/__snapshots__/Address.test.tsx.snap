@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Address component 1`] = `
+<div>
+  <address>
+    294793 US Highway 101
+    ,
+    <br />
+    Quilcene
+    ,
+    <br />
+    Washington
+    ,
+    <br />
+    United States
+    ,
+    <br />
+    98376-9000
+  </address>
+</div>
+`;
+
+exports[`Renders Address component with button 1`] = `
+<div>
+  <address>
+    294793 US Highway 101
+    ,
+    <br />
+    Quilcene
+    ,
+    <br />
+    Washington
+    ,
+    <br />
+    United States
+    ,
+    <br />
+    98376-9000
+  </address>
+  <br />
+  <a
+    class="ui teal icon right labeled button google-maps-button"
+    href="https://www.google.com/maps/place/-122.8775066 47.8225116"
+    role="button"
+    target="__blank"
+  >
+    View Location 
+    <i
+      aria-hidden="true"
+      class="black map marker alternate icon"
+    />
+  </a>
+</div>
+`;

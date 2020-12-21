@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders DetailItem component 1`] = `
+<div>
+  <article>
+    <h2
+      class="ui large header"
+    >
+      Mock Title
+    </h2>
+  </article>
+</div>
+`;

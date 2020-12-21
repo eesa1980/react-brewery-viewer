@@ -1,91 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Fails to show brewery-detail page as no id 1`] = `
-<div>
-  <div
-    class="ui container"
-  >
-    <div
-      class="ui horizontal divider"
-    >
-      <h1
-        class="ui header"
-      >
-        404 Error - Page not found
-      </h1>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Shows brewery-detail page 1`] = `
-.c0 {
-  background: #00b5ad;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 250px;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  border-top-right-radius: 75px;
-  border-bottom-left-radius: 75px;
-  box-shadow: -10px 10px rgba(0,0,0,0.05);
-}
-
-.c0 .header {
-  color: #ffffff;
-}
-
-<div>
-  <div
-    class="ui container"
-  >
-    <div
-      class="c0"
-    >
-      <h1
-        class="ui huge header"
-      />
-    </div>
-    <div
-      class="ui horizontal divider"
-    />
-  </div>
-</div>
-`;
-
-exports[`Shows error page 1`] = `
-<div>
-  <div
-    class="ui container"
-  >
-    <div
-      class="ui horizontal divider"
-    >
-      <h1
-        class="ui header"
-      >
-        404 Error - Page not found
-      </h1>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Shows home page 1`] = `
+exports[`Shows home page with mocked results 1`] = `
 .c0 {
   position: -webkit-sticky;
   position: sticky;
@@ -402,7 +317,120 @@ exports[`Shows home page 1`] = `
       </thead>
       <tbody
         class=""
-      />
+      >
+        <tr
+          class="brewery-item"
+        >
+          <td
+            class="selectable"
+          >
+            <a
+              href="/brewery-detail/1"
+            >
+              <strong>
+                Fake 1
+              </strong>
+            </a>
+          </td>
+          <td
+            class="disabled selectable"
+          >
+            <a
+              href="https://www.google.com/maps/place/undefined undefined"
+              target="__blank"
+            >
+              <address />
+            </a>
+          </td>
+          <td
+            class="disabled selectable"
+          />
+        </tr>
+        <tr
+          class="brewery-item"
+        >
+          <td
+            class="selectable"
+          >
+            <a
+              href="/brewery-detail/2"
+            >
+              <strong>
+                Fake 2
+              </strong>
+            </a>
+          </td>
+          <td
+            class="disabled selectable"
+          >
+            <a
+              href="https://www.google.com/maps/place/undefined undefined"
+              target="__blank"
+            >
+              <address />
+            </a>
+          </td>
+          <td
+            class="disabled selectable"
+          />
+        </tr>
+        <tr
+          class="brewery-item"
+        >
+          <td
+            class="selectable"
+          >
+            <a
+              href="/brewery-detail/3"
+            >
+              <strong>
+                Fake 3
+              </strong>
+            </a>
+          </td>
+          <td
+            class="disabled selectable"
+          >
+            <a
+              href="https://www.google.com/maps/place/undefined undefined"
+              target="__blank"
+            >
+              <address />
+            </a>
+          </td>
+          <td
+            class="disabled selectable"
+          />
+        </tr>
+        <tr
+          class="brewery-item"
+        >
+          <td
+            class="selectable"
+          >
+            <a
+              href="/brewery-detail/4"
+            >
+              <strong>
+                Fake 4
+              </strong>
+            </a>
+          </td>
+          <td
+            class="disabled selectable"
+          >
+            <a
+              href="https://www.google.com/maps/place/undefined undefined"
+              target="__blank"
+            >
+              <address />
+            </a>
+          </td>
+          <td
+            class="disabled selectable"
+          />
+        </tr>
+      </tbody>
       <tfoot
         class=""
       >
@@ -413,7 +441,9 @@ exports[`Shows home page 1`] = `
             class=""
           >
             <button
-              class="ui teal icon loading right labeled button"
+              class="ui teal icon disabled right labeled button"
+              disabled=""
+              tabindex="-1"
             >
               Show more 
               <i

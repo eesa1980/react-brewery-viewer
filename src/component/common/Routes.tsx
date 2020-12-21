@@ -6,11 +6,12 @@ import Layout from "../layout/Layout";
 
 const Routes: React.FC = () => {
   return (
-    <Switch>
-      <Route exact path="/" component={HomePage} />
-      <Route exact path="/brewery-detail/:id" component={BreweryDetail} />
-        <Route component={() => <Layout title={'404 Error - Page not found'}/>} />
-    </Switch>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/brewery-detail/:id" component={BreweryDetail} />
+        <Route
+          component={() => <Layout title={"404 Error - Page not found"} />} />
+      </Switch>
   );
 };
 

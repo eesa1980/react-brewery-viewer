@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Details component 1`] = `
+.c0 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <article>
+      <h2
+        class="ui large header"
+      >
+        Brewery Type
+      </h2>
+      <p>
+        Brewpub
+      </p>
+    </article>
+    <div
+      class="ui horizontal divider"
+    />
+    <article>
+      <h2
+        class="ui large header"
+      >
+        Address
+      </h2>
+      <address>
+        294793 US Highway 101
+        ,
+        <br />
+        Quilcene
+        ,
+        <br />
+        Washington
+        ,
+        <br />
+        United States
+        ,
+        <br />
+        98376-9000
+      </address>
+      <br />
+      <a
+        class="ui teal icon right labeled button google-maps-button"
+        href="https://www.google.com/maps/place/-122.8775066 47.8225116"
+        role="button"
+        target="__blank"
+      >
+        View Location 
+        <i
+          aria-hidden="true"
+          class="black map marker alternate icon"
+        />
+      </a>
+    </article>
+    <div
+      class="ui horizontal divider"
+    />
+    <article>
+      <h2
+        class="ui large header"
+      >
+        Website
+      </h2>
+      <a
+        href="http://www.101brewery.com"
+        target="__blank"
+      >
+        http://www.101brewery.com
+      </a>
+    </article>
+    <div
+      class="ui horizontal divider"
+    />
+    <article>
+      <h2
+        class="ui large header"
+      >
+        Phone
+      </h2>
+      <a
+        href="tel:3607656485"
+        target="__blank"
+      >
+        3607656485
+      </a>
+    </article>
+    <div
+      class="ui horizontal divider"
+    />
+  </div>
+</div>
+`;

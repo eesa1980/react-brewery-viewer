@@ -1,0 +1,1270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Doesn't click show more as there's no more results to show, so button disabled 1`] = `
+<div>
+  <table
+    class="ui teal fixed striped padded table"
+  >
+    <thead
+      class=""
+    >
+      <tr
+        class=""
+      >
+        <th
+          class=""
+        >
+          Name
+        </th>
+        <th
+          class=""
+        >
+          Location
+        </th>
+        <th
+          class=""
+        >
+          Website
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class=""
+    >
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/1"
+          >
+            <strong>
+              Fake 1
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/undefined undefined"
+            target="__blank"
+          >
+            <address />
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/2"
+          >
+            <strong>
+              Fake 2
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/undefined undefined"
+            target="__blank"
+          >
+            <address />
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/3"
+          >
+            <strong>
+              Fake 3
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/undefined undefined"
+            target="__blank"
+          >
+            <address />
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/4"
+          >
+            <strong>
+              Fake 4
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/undefined undefined"
+            target="__blank"
+          >
+            <address />
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+    </tbody>
+    <tfoot
+      class=""
+    >
+      <tr
+        class=""
+      >
+        <th
+          class=""
+        >
+          <button
+            class="ui teal icon disabled right labeled button"
+            disabled=""
+            tabindex="-1"
+          >
+            Show more 
+            <i
+              aria-hidden="true"
+              class="arrow down icon"
+            />
+          </button>
+        </th>
+        <th
+          class=""
+        />
+        <th
+          class=""
+        />
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;
+
+exports[`Renders Items Component 1`] = `
+<div>
+  <table
+    class="ui teal fixed striped padded table"
+  >
+    <thead
+      class=""
+    >
+      <tr
+        class=""
+      >
+        <th
+          class=""
+        >
+          Name
+        </th>
+        <th
+          class=""
+        >
+          Location
+        </th>
+        <th
+          class=""
+        >
+          Website
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class=""
+    >
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/7325"
+          >
+            <strong>
+              101 Brewery
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/null null"
+            target="__blank"
+          >
+            <address>
+              294793 US Highway 101
+              ,
+              <br />
+              Quilcene
+              ,
+              <br />
+              Washington
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              98376-9000
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.101brewery.com"
+            target="__blank"
+          >
+            <div>
+              http://www.101brewery.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/266"
+          >
+            <strong>
+              101 North Brewing Company
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/null null"
+            target="__blank"
+          >
+            <address>
+              1304 Scott St Ste D
+              ,
+              <br />
+              Petaluma
+              ,
+              <br />
+              California
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              94954-7100
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.101northbeer.com"
+            target="__blank"
+          >
+            <div>
+              http://www.101northbeer.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/2563"
+          >
+            <strong>
+              10-56 Brewing Company
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/41.289715 -86.627954"
+            target="__blank"
+          >
+            <address>
+              400 Brown Cir
+              ,
+              <br />
+              Knox
+              ,
+              <br />
+              Indiana
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              46534
+            </address>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/1192"
+          >
+            <strong>
+              105 West Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/39.3826949498803 -104.866720584377"
+            target="__blank"
+          >
+            <address>
+              1043 Park St
+              ,
+              <br />
+              Castle Rock
+              ,
+              <br />
+              Colorado
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              80109-1585
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.105westbrewing.com"
+            target="__blank"
+          >
+            <div>
+              http://www.105westbrewing.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/265"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/32.714813 -117.129593"
+            target="__blank"
+          >
+            <address>
+              1501 E St
+              ,
+              <br />
+              San Diego
+              ,
+              <br />
+              California
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              92101-6618
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://10barrel.com"
+            target="__blank"
+          >
+            <div>
+              http://10barrel.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/5695"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/45.5259786 -122.685505575334"
+            target="__blank"
+          >
+            <address>
+              1411 NW Flanders St
+              ,
+              <br />
+              Portland
+              ,
+              <br />
+              Oregon
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              97209-2620
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.10barrel.com"
+            target="__blank"
+          >
+            <div>
+              http://www.10barrel.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/2242"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/43.6174335918367 -116.202360204082"
+            target="__blank"
+          >
+            <address>
+              830 W Bannock St
+              ,
+              <br />
+              Boise
+              ,
+              <br />
+              Idaho
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              83702-5857
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.10barrel.com"
+            target="__blank"
+          >
+            <div>
+              http://www.10barrel.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/5696"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/null null"
+            target="__blank"
+          >
+            <address>
+              1135 NW Galveston Ave Ste B
+              ,
+              <br />
+              Bend
+              ,
+              <br />
+              Oregon
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              97703-2465
+            </address>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/5694"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/null null"
+            target="__blank"
+          >
+            <address>
+              62970 18th St
+              ,
+              <br />
+              Bend
+              ,
+              <br />
+              Oregon
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              97701-9847
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.10barrel.com"
+            target="__blank"
+          >
+            <div>
+              http://www.10barrel.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/5697"
+          >
+            <strong>
+              10 Barrel Brewing Co - Bend Pub
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/44.0912109 -121.2809536"
+            target="__blank"
+          >
+            <address>
+              62950 NE 18th St
+              ,
+              <br />
+              Bend
+              ,
+              <br />
+              Oregon
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              97701
+            </address>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+    </tbody>
+    <tfoot
+      class=""
+    >
+      <tr
+        class=""
+      >
+        <th
+          class=""
+        >
+          <button
+            class="ui teal icon loading right labeled button"
+          >
+            Show more 
+            <i
+              aria-hidden="true"
+              class="arrow down icon"
+            />
+          </button>
+        </th>
+        <th
+          class=""
+        />
+        <th
+          class=""
+        />
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;
+
+exports[`Renders Items Component and clicks show more button 1`] = `
+<div>
+  <table
+    class="ui teal fixed striped padded table"
+  >
+    <thead
+      class=""
+    >
+      <tr
+        class=""
+      >
+        <th
+          class=""
+        >
+          Name
+        </th>
+        <th
+          class=""
+        >
+          Location
+        </th>
+        <th
+          class=""
+        >
+          Website
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class=""
+    >
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/7325"
+          >
+            <strong>
+              101 Brewery
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/null null"
+            target="__blank"
+          >
+            <address>
+              294793 US Highway 101
+              ,
+              <br />
+              Quilcene
+              ,
+              <br />
+              Washington
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              98376-9000
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.101brewery.com"
+            target="__blank"
+          >
+            <div>
+              http://www.101brewery.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/266"
+          >
+            <strong>
+              101 North Brewing Company
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/null null"
+            target="__blank"
+          >
+            <address>
+              1304 Scott St Ste D
+              ,
+              <br />
+              Petaluma
+              ,
+              <br />
+              California
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              94954-7100
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.101northbeer.com"
+            target="__blank"
+          >
+            <div>
+              http://www.101northbeer.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/2563"
+          >
+            <strong>
+              10-56 Brewing Company
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/41.289715 -86.627954"
+            target="__blank"
+          >
+            <address>
+              400 Brown Cir
+              ,
+              <br />
+              Knox
+              ,
+              <br />
+              Indiana
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              46534
+            </address>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/1192"
+          >
+            <strong>
+              105 West Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/39.3826949498803 -104.866720584377"
+            target="__blank"
+          >
+            <address>
+              1043 Park St
+              ,
+              <br />
+              Castle Rock
+              ,
+              <br />
+              Colorado
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              80109-1585
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.105westbrewing.com"
+            target="__blank"
+          >
+            <div>
+              http://www.105westbrewing.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/265"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/32.714813 -117.129593"
+            target="__blank"
+          >
+            <address>
+              1501 E St
+              ,
+              <br />
+              San Diego
+              ,
+              <br />
+              California
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              92101-6618
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://10barrel.com"
+            target="__blank"
+          >
+            <div>
+              http://10barrel.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/5695"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/45.5259786 -122.685505575334"
+            target="__blank"
+          >
+            <address>
+              1411 NW Flanders St
+              ,
+              <br />
+              Portland
+              ,
+              <br />
+              Oregon
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              97209-2620
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.10barrel.com"
+            target="__blank"
+          >
+            <div>
+              http://www.10barrel.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/2242"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/43.6174335918367 -116.202360204082"
+            target="__blank"
+          >
+            <address>
+              830 W Bannock St
+              ,
+              <br />
+              Boise
+              ,
+              <br />
+              Idaho
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              83702-5857
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.10barrel.com"
+            target="__blank"
+          >
+            <div>
+              http://www.10barrel.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/5696"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/null null"
+            target="__blank"
+          >
+            <address>
+              1135 NW Galveston Ave Ste B
+              ,
+              <br />
+              Bend
+              ,
+              <br />
+              Oregon
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              97703-2465
+            </address>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/5694"
+          >
+            <strong>
+              10 Barrel Brewing Co
+            </strong>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/null null"
+            target="__blank"
+          >
+            <address>
+              62970 18th St
+              ,
+              <br />
+              Bend
+              ,
+              <br />
+              Oregon
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              97701-9847
+            </address>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="http://www.10barrel.com"
+            target="__blank"
+          >
+            <div>
+              http://www.10barrel.com
+            </div>
+          </a>
+        </td>
+      </tr>
+      <tr
+        class="brewery-item"
+      >
+        <td
+          class="selectable"
+        >
+          <a
+            href="/brewery-detail/5697"
+          >
+            <strong>
+              10 Barrel Brewing Co - Bend Pub
+            </strong>
+          </a>
+        </td>
+        <td
+          class="selectable"
+        >
+          <a
+            href="https://www.google.com/maps/place/44.0912109 -121.2809536"
+            target="__blank"
+          >
+            <address>
+              62950 NE 18th St
+              ,
+              <br />
+              Bend
+              ,
+              <br />
+              Oregon
+              ,
+              <br />
+              United States
+              ,
+              <br />
+              97701
+            </address>
+          </a>
+        </td>
+        <td
+          class="disabled selectable"
+        />
+      </tr>
+    </tbody>
+    <tfoot
+      class=""
+    >
+      <tr
+        class=""
+      >
+        <th
+          class=""
+        >
+          <button
+            class="ui teal icon right labeled button"
+          >
+            Show more 
+            <i
+              aria-hidden="true"
+              class="arrow down icon"
+            />
+          </button>
+        </th>
+        <th
+          class=""
+        />
+        <th
+          class=""
+        />
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;

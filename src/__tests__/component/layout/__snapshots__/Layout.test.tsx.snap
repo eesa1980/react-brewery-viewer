@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Layout component 1`] = `
+<div>
+  <div
+    class="ui container"
+  >
+    <div
+      class="ui horizontal divider"
+    >
+      <h1
+        class="ui header"
+      >
+        Mock Title
+      </h1>
+    </div>
+    <p
+      class="ui center aligned header"
+    >
+      Mock Subtitle
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Renders Layout component with loading overlay 1`] = `
+<div>
+  <div
+    class="ui container"
+  >
+    <div
+      class="ui horizontal divider"
+    >
+      <h1
+        class="ui header"
+      >
+        Mock Title
+      </h1>
+    </div>
+    <p
+      class="ui center aligned header"
+    >
+      Mock Subtitle
+    </p>
+  </div>
+</div>
+`;
