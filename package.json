@@ -20,7 +20,6 @@
     "react-scripts": "4.0.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.1",
-    "storybook": "^6.1.11",
     "styled-components": "^5.2.1",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
@@ -30,6 +29,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.test.tsx"
+    ],
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!lodash-es)"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +60,7 @@
     "@types/lodash-es": "^4.17.4",
     "@types/styled-components": "^5.1.7",
     "jest-styled-components": "^7.0.3",
-    "msw": "^0.24.2"
+    "msw": "^0.24.2",
+    "prettier": "^2.2.1"
   }
 }

@@ -20,23 +20,23 @@ const Wrapper$ = styled.div`
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-
+  word-wrap: break-word;
+  
   * {
     color: rgba(0, 0, 0, 0.87);
     a,
     a * {
       color: #00b5ad;
 
-      &.disabled,
-      &.disabled * {
-        color: rgba(0, 0, 0, 0.87);
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: #00b5ad;
       }
     }
   }
 
-  a: hover {
-    text-decoration: underline;
-    text-decoration-color: #00b5ad;
+  .disabled * {
+    color: rgba(0, 0, 0, 0.87)
   }
 `;
 

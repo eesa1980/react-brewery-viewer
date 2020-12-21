@@ -31,12 +31,10 @@ const Footer$ = styled.header`
   justify-content: center;
   text-align: center;
 
-  a,
-  strong {
-    color: #ffffff;
+  a {
+    color: #ffffff!important;
 
     &:hover {
       text-decoration-color: #ffffff;
     }
-  }
 `;

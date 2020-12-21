@@ -18,7 +18,7 @@ const Details: React.FC<PropTypes> = ({ brewery }) => {
   return (
     <Wrapper$>
       <DetailItem title={"Brewery Type"}>
-        {startCase(brewery?.brewery_type)}
+        <p>{startCase(brewery?.brewery_type)}</p>
       </DetailItem>
 
       <Divider horizontal />

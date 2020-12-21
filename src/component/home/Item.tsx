@@ -10,7 +10,7 @@ interface PropTypes {
 
 const Item: React.FC<PropTypes> = ({ brewery }) => {
   return (
-    <Table.Row>
+    <Table.Row className={'brewery-item'}>
       <Table.Cell selectable>
         <Link to={`/brewery-detail/${brewery.id}`}>
           <strong>{brewery.name}</strong>
@@ -27,7 +27,7 @@ const Item: React.FC<PropTypes> = ({ brewery }) => {
       <Table.Cell selectable disabled={!brewery.website_url}>
         {brewery.website_url && (
           <a href={brewery.website_url} target="__blank">
-            {brewery.website_url}
+            <div>{brewery.website_url}</div>
           </a>
         )}
       </Table.Cell>

@@ -12,7 +12,7 @@ const DetailItem: React.FC<PropTypes> = ({ title, children }) => {
         {title}
       </Header>
 
-      <p>{children}</p>
+      {children}
     </article>
   );
 };

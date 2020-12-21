@@ -38,11 +38,13 @@ const Address: React.FC<PropTypes> = ({ brewery, showBtn }) => {
         <>
           <br />
           <Button
+            className={"google-maps-button"}
             color={"teal"}
             labelPosition="right"
             icon={"map marker alternate"}
             as={"a"}
             href={`https://www.google.com/maps/place/${brewery.latitude} ${brewery.longitude}`}
+            target={"__blank"}
           >
             View Location <Icon name="map marker alternate" color={"black"} />
           </Button>
