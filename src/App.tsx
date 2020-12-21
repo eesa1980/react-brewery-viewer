@@ -3,15 +3,18 @@ import Routes from "./component/common/Routes";
 import styled from "styled-components";
 import Header from "./component/layout/Header";
 import Footer from "./component/layout/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 const App: FC = ({ children }) => {
   return (
     <Wrapper$>
-      <Header />
-      <main>
-        <Routes />
-      </main>
-      <Footer />
+      <BrowserRouter basename={process.env.NODE_ENV === "production" ? process.env.PUBLIC_URL : "/"}>
+        <Header />
+        <main>
+          <Routes />
+        </main>
+        <Footer />
+      </BrowserRouter>
     </Wrapper$>
   );
 };
